@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms in HTML</title>
+  </head>
+  <body>
+    <form action="https://www.youtube.com/results?">
+      <div>
+        <label for="Username">Username</label>
+        <input
+          type="text"
+          name="search_query"
+          id="Username"
+          placeholder="enter username"
+        />
+      </div>
+      <div>
+        <label for="Password">Password</label>
+        <input type="password" id="Password" placeholder="enter your password"/>
+      </div>
+      <div>
+        <input type="submit">
+      </div>
+      <div>
+        <input type="checkbox" id="Apple">
+        <label for="Apple">Apple</label>
+        <input type="checkbox" id="Mango">
+        <label for="Mango">Mango</label>
+        <input type="checkbox" id="cherry">
+        <label for="cherry">Cherry</label>
+      </div>
+      <div>
+        <h3>Gender</h3>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <h3>Select Fruit</h3>
+        <select name="desh" id="Country">
+            <option value="India">India</option>
+            <option value="china">china</option>
+            <option value="nepal">nepal</option>
+        </select>
+      </div>
+      <div>
+        <h4>Volume</h4>
+        <input min="0" max="100" type="range" step="10">
+      </div>
+      <div>
+        <textarea name="Feedback" id="Feedback">give feedback</textarea>
+      </div>
+    </form>
+  </body>
+</html>
