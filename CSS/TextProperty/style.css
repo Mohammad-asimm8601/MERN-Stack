@@ -1,0 +1,21 @@
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    color:blue; 
+}
+h2{
+    color: rgb(57, 133, 136);
+    
+}
+h3{
+    color:rgb(0, 118, 208);
+}
+p{
+    text-align: justify;
+    text-decoration:none;
+    letter-spacing: 0.5px;
+    line-height: 1.5pc;
+    font-size: 15px;
+    font-family:  sans-serif,monospace;
+}

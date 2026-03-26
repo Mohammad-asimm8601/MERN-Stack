@@ -1,0 +1,71 @@
+*{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+h1, h3{
+    color: #b92b27;
+}
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+.upvote{
+    background-color: green ;
+    color: white;
+}
+.post a {
+    background-color: yellow;
+    color: purple;
+}
+nav ul li a{
+    color: hotpink;
+}
+P + h3{
+    text-decoration: underline;
+}
+.upvote + button{
+    background-color: cornflowerblue;
+    color: white;
+}
+div > input {
+    background-color: darksalmon;
+}
+input[type="text"]{
+    color: red;
+}
+input[type="text"]{
+    color: green;
+}
+input[type="password"]{
+    color: red;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover {
+   text-decoration: none;  
+}
+button:active{
+    background-color: palevioletred;
+    color: black;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+.post:nth-of-type(2) {
+    background-color: blanchedalmond;
+}
+h1::first-letter{
+    color: green;
+}
