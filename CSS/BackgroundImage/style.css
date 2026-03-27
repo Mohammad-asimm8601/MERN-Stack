@@ -1,0 +1,10 @@
+div{
+    width: 600px;
+    height: 400px;
+    background-color: #7aa87a;
+    margin: 10px auto;
+    background-image: url("neemleaf.jpg");
+    background-size: contain;
+    text-align: center;
+    color: white;
+}

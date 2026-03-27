@@ -1,0 +1,25 @@
+
+div{
+    height: 200px;
+    width: 500px;
+    background-color: beige;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+h1{
+    border: 3px dashed blueviolet;
+}
+button{
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 20px;
+}
