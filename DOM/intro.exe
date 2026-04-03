@@ -1,0 +1,1 @@
+ The DOM (Document Object Model) is a programming interface that represents a web page's structure as a logical tree of objects. It acts as the bridge between your static HTML/CSS and JavaScript, allowing you to dynamically change a page's content, structure, and style
