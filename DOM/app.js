@@ -38,7 +38,7 @@
 //         savetoDB("Mohammad Asim", ()=>{
 //             console.log("Success 3 : your data was saved");
 //         }, ()=>{
-//             console.log("Failue 3 : weak connection. data not saved");  
+//             console.log("Failue 3 : weak connection. data not saved");
 //         });
 //       },
 //       () => {
@@ -51,22 +51,54 @@
 //   },
 // );
 
+// function savetoDB(data) {
+//   return new Promise((resolve, reject) => {
+//     let internetSpeed = Math.floor(Math.random() * 10) + 1;
+//     if (internetSpeed > 4) {
+//       resolve("Success : Data was saved");
+//     } else {
+//       reject("Failure : weak connection");
+//     }
+//   });
+// }
 
-function savetoDB(data) {
-  return new Promise((resolve, reject) =>{
-    let internetSpeed = Math.floor(Math.random() * 10) + 1;
-    if(internetSpeed > 4){
-        resolve("Success : Data was saved");
-    } else{
-        reject("Failure : weak connection");
-    }
-  }); 
+// savetoDB("Apna college")
+//   .then(() => {
+//     console.log("Resolved. data1 saved .");
+//     return savetoDB("helloworld");
+//   })
+//   .then(() => {
+//     console.log("ddata2 saved");
+//   })
+//   .catch(() => {
+//     console.log("Rejected");
+//   });
+
+
+// async function greet() {
+//     throw "some random error"
+//     return "hello!"
+// }
+
+// greet()
+// .then((result)=>{
+//     console.log("promise was resolved");
+//     console.log("result was : ", result);;
+// })
+
+// .catch((err)=>{
+//     console.log("promise was rejected with her err : ", err);
+// });
+
+// let demo = async  () =>{
+//     return 5;
+// };
+
+
+function getNUm(){
+    console.log(5);
 }
 
-savetoDB("Apna college")
-    .then(() =>{
-    console.log("Resolved");  
-})
-.catch(() =>{
-    console.log("Rejected");
-});
+async function demo() {
+    getNUm();
+}
