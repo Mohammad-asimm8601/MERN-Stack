@@ -4,13 +4,12 @@
   "description": "Its amazing package",
   "license": "ISC",
   "author": "Asim",
-  "type": "module",
+  "type": "commonjs",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@angular/cli": "^21.2.8",
     "express": "^5.2.1"
   },
   "devDependencies": {
